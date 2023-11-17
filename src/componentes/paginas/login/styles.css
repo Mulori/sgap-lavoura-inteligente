@@ -1,0 +1,68 @@
+.bg-primary {
+    background-color: #1b504d !important;
+}
+
+.col-background {
+    background-image: linear-gradient(to bottom, rgba(198, 246, 80, 0.73), rgba(27, 80, 77, 0.73)), url('../../../imagens/gps-agricultura.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #1b504d !important;
+    border-color: transparent !important;
+}
+
+.form-control:focus {
+    border-color: #1b504d;
+    box-shadow: 0 0 0 0.2rem #c6f650;
+}
+
+.btn-primary:hover {
+    background-color: #1b504d !important;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+    box-shadow: 0 0 0 0.2rem #c6f650;
+}
+
+a {
+    color: #1b504d !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #1b504d !important;
+}
+
+.bordas-arredondadas {
+    border-radius: 20px !important;
+}
+
+
+
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-info: #aaaaaa;
+    --toastify-color-success: #f1c40f;
+    --toastify-color-error: #e74c3c;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+::-moz-selection {
+    color: white;
+    background: #ebc053;
+}
+
+::selection {
+    color: white;
+    background: #ebc053;
+}
