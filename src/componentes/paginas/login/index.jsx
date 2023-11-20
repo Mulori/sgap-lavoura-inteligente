@@ -4,7 +4,7 @@ import ValidaAutenticacao from '../../funcoes/autenticacao';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './styles.css';
-import logo from '../../../imagens/sgap.png'
+import logo from '../../../imagens/logo-oficial.png'
 
 function Login() {
     const Navegacao = useNavigate();
@@ -30,7 +30,7 @@ function Login() {
             senha: senha.trim()
         }   
         
-        if(email.trim() === "mirelamello@sgap.com.br" && senha.trim() === "0223mm"){
+        if(email.trim() === "mirelamello@sgapp.com.br" && senha.trim() === "0223mm"){
             localStorage.setItem("codigo_usuario_sgap", 1);
             Navegacao("/")
         }else{
